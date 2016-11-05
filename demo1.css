@@ -1,0 +1,54 @@
+#part1
+{
+	width:173px;
+	float:left;
+}
+#part2 
+{
+	width:50px;
+	float:left;
+	margin:1px 20px;
+}
+.select
+{
+	height:20px;
+	width:50px;
+	display: block;
+}
+.input
+{
+	width:173px;
+	height:23px;
+}
+#part3
+{
+	width:680px;
+	height:500px;
+	float:right;
+}
+.p3{
+	height: 300px;
+	width:130px;
+	color:black;
+	display:inline-block;
+	background-color: #DDDDDD;
+	text-align: center;
+}
+.p3:hover{
+	background-color: #FF6600;
+	color: green;
+
+}
+.p0
+{
+	width: 100px;
+	height:100px;
+	float: auto;
+	margin-top: 10px;
+	text-align: center;
+	display: none;
+}
+.p0:hover
+{
+	color:red;
+}

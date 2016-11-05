@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>简单计算器</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="布尔教育 http://www.itbool.com" />
+<link rel="stylesheet" href="./primary calculator.css" />
+<script src="primary calculator.js"></script>
+</head>
+    <body>
+    	<div id="container">
+    		<div id="part1">
+    		<input type="text" value="" class="input" id="i1"/>
+		<input type="text" value="" class="input" id="i2"/>
+
+    		</div>
+		<div id="part2">
+			<select name="" class="select">
+				<option value="+" id="mark">+</option>
+				<option value="-" id="mark">-</option>
+				<option value="*" id="mark">*</option>
+				<option value="/" id="mark">/</option>
+				<option value="%" id="mark">%</option>
+			</select>
+			<input type="submit" class="select" value="=" onclick="calculator()"/>
+		</div>
+		<div id="part3">
+			<div class="p3"  onmouseover="p31.style.display='block';" onmouseout="p31.style.display='none';">菜单一
+				<div id="p31" class="p0">
+					111111111111111<br>111111111111111<br>111111111111111<br>111111111111111<br>
+				</div>
+			</div >
+			<div class="p3"  onmouseover="p32.style.display='block';" onmouseout="p32.style.display='none';">菜单二
+				<div id="p32" class="p0">
+					222222222222222<br>222222222222222<br>222222222222222<br>222222222222222<br>
+				</div>
+			</div> 
+			<div class="p3"  onmouseover="p33.style.display='block';" onmouseout="p33.style.display='none';">菜单三
+				<div id="p33" class="p0">
+					333333333333333<br>33333333333333<br>333333333333333<br>333333333333333
+				</div>
+			</div>
+			<div class="p3" onmouseover="p34.style.display='block';" onmouseout="p34.style.display='none';">菜单四
+				<div id="p34" class="p0">
+					444444444444444<br>444444444444444<br>444444444444444<br>444444444444444
+				</div>
+			</div>
+		</div>
+	</div>
+    </body>
+</html>
